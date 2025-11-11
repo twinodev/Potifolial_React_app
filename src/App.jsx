@@ -12,13 +12,15 @@ function Me() {
   return(
     <>
     <Header/>
-    <Hero/>
-    <About/>
-    <div className='mid'>
-      <Skills/>
-      <Projects/>
+    <div className="container">
+      <Hero/>
+      <About/>
+      <div className='mid'>
+        <Skills/>
+        <Projects/>
+      </div>
+      <Contact/>
     </div>
-    <Contact/>
     <Footer/>
     </>
   );
