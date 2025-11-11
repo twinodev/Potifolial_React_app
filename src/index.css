@@ -1,0 +1,282 @@
+body{
+    background-color: #bcb8bc;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*Syles for the header component*/
+.header{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid black;
+    box-shadow: 5px 5px 5px grey;
+    background-color: rgb(224, 219, 219);
+    background-position: center;
+    background-size: cover;
+    height: fit-content;
+    
+
+}
+
+/*Logo styles*/
+.header .logo{
+    max-width: 150px;
+    padding-right: 10px;
+    margin: auto;
+}
+
+/*Shop information styles*/
+.header .shop-info{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    text-align: center;
+}
+.header .shop-info .shop-name{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #e67c03;
+}
+.header .shop-info .tagline{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/*Menu styles*/
+.menu{
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    padding: 0px;
+}
+
+/*Dropdown options styles*/
+.menu .options{
+    margin-top:1px;
+    display: flex;
+    gap: 10px;
+}
+
+.menu .options a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.options a:hover{
+    color: #e67c03;
+    font-size:1.1em;
+    
+}
+
+
+
+/*Footer styles*/
+.footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 4px solid black;
+    padding-bottom: 10px;
+    box-shadow: 0px -5px 5px grey;
+    background-color: rgb(240, 234, 234);
+    margin-top: 20px;
+    position: bottom;
+}
+/*Footer text styles*/
+.footer p{
+    font-size: 1em;
+    color: #333333;
+}
+/*Social media links styles*/
+.footer .social-media a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #e67c03;
+    font-size: 0.9em;
+}
+.footer .social-media a:hover{
+    color: #333333;
+    font-size: 1em;
+}
+/*Sponsor logos styles*/
+.footer .sponsor-logo{
+    max-width: 50px;
+    margin-top: 2px;
+    padding-left: 20px;
+}
+
+/*Hero component styles*/
+.hero{
+    margin: 10px;
+    display: block;
+    max-width: 100%;
+    height: 350px;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 5px;
+    background-color: #ffffff;
+
+
+}
+.hero img{
+    width: 200x;
+    height:200px;
+    border-radius: 50%;
+}
+.hero h2{
+    font-size: 1.5em;
+}
+.hero p{
+    font-size: 1.1em;
+}
+.buttons{
+    text-align: center;
+
+}
+.buttons button{
+    margin-left: 10px;
+    font-size: 1.2em;
+    border-radius: 1px;
+    color: white;
+    background-color: #e67c03;
+    border-style: hidden;
+}
+.buttons button:hover{
+    color: #e67c03;
+    background-color: white;
+    border: 1px solid #e67c03;
+    font-weight: bold;
+}
+
+
+.about{
+    background-color: #e6c197;
+    width: 97%;
+    height: 300px;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    
+    margin-right: 20px;
+
+}
+.about h2{
+    color: rgb(11, 3, 156);
+    font-size: 2em;
+}
+.about p{
+    font-size: 1.2em;
+}
+
+.mid{
+    display: flex;
+}
+
+.skills{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #e67c03;
+    margin-top: 10px;
+    flex-direction: column;
+    width: 30%;
+}
+
+
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(222, 224, 226);
+    border-radius: 20px;
+    width: 70%;
+}
+.projects h2{
+    text-align: center;
+    color: #e67c03;
+    font-weight: bold;
+    font-size: 2em;
+
+}
+.project{
+    border: 2px solid rgb(134, 129, 129) ;
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 100%;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.project:hover{
+    box-shadow: 4px 4px 4px 4px black;
+}
+.project img{
+    padding: 10px;
+    width: 200px;
+    height: 150px;
+    border-radius: 30px;
+}
+.project img:hover{
+    cursor:pointer;
+}
+.project .details{
+    padding: 10px;
+    padding-left: 30px;
+}
+
+
+.project a{
+    padding: 10px;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(142, 0, 88);
+    
+}
+.project a:hover{
+    color: blue;
+    font-size: 1.6em;
+}
+
+.project h3{
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact{
+    display: block;
+    text-align: center;
+    background-color: #fdfdfd;
+    padding: 20px;
+    margin: 10px;
+
+}
+.contact form input{
+    font-size: 1.2em;
+    padding-bottom: 4px;
+    width: 400px;
+    margin-bottom: 10px;
+
+}
+.contact form button{
+    width:100px;
+    height: 40px;
+    font-size: 1.2em;
+    background-color: #e67c03;
+    color: white;
+    border-radius: 5px;
+    border-color: #e67c03;
+}
+.contact form button:hover{
+    background-color: #fdfdfd;
+    color: #e67c03;
+    border-radius: 5px;
+    border-color: #e67c03;
+}
+.contact form label{
+    font-size: 1.2em;
+}
