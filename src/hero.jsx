@@ -1,4 +1,4 @@
-import Profilepic from './assets/me.png'
+import Profilepic from './assets/me1.png'
 
 function Hero(){
     return(

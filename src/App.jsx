@@ -1,5 +1,5 @@
-import Header from './header.jsx';
-import Footer from './footer.jsx';
+import Header from './Header.jsx';
+import Footer from './Footer.jsx';
 import Hero from './hero.jsx'
 import About from './about.jsx'
 import Skills from './skills.jsx'

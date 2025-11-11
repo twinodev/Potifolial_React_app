@@ -1,4 +1,4 @@
-import Logo from './assets/shoplogo.png';
+import Logo from './assets/logo.png';
 
 function Header() {
     const shopname = "TwinoDev";
@@ -6,7 +6,7 @@ function Header() {
   return (
     <>
     <header className='header'>
-        <img src={Logo} alt="Shop Logo" className="logo" />
+        <img src={Logo} alt="Logo" className="logo" />
         <div className="shop-info">
             <h1 className="shop-name">{shopname}</h1>
             <p className="tagline">{tagline}</p>
