@@ -1,5 +1,5 @@
  import Project from './project.jsx'
- import Cover from './assets/me.png'
+ import Cover from './assets/me1.jpg'
 
  function Projects(){
     return(
