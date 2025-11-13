@@ -6,6 +6,7 @@
 [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
 [![Font Awesome](https://img.shields.io/badge/Font_Awesome-228AE6?style=for-the-badge&logo=fontawesome&logoColor=white)](https://fontawesome.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](./LICENSE)
+[![Donate with PayPal](https://img.shields.io/badge/Donate-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/ncp/payment/VY44H6DSDJKJ4)
 
 A modern, responsive React portfolio application built with Vite. Showcase your projects, skills, and contact information with a fast, accessible, and performant web app.
 
@@ -128,5 +129,7 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 
 - Author: twinodev  
 - GitHub: https://github.com/twinodev
+
+  [![Donate with PayPal](https://img.shields.io/badge/Donate-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/ncp/payment/VY44H6DSDJKJ4)
 
 
